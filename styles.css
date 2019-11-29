@@ -119,6 +119,10 @@ header h5{
     line-height: 1.5em;
     letter-spacing: 1px;
     font-weight: 300;
+    margin-bottom: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: space-around;
 }
 
 .about h2,
@@ -134,6 +138,7 @@ header h5{
 
 .about p{
     color: #b2b2b2;
+
 }
 
 .about span{
@@ -170,6 +175,7 @@ header h5{
 .js{
     width: 35%;
 }
+
 .folio h3{
     color: white;
     font-weight: 300;
