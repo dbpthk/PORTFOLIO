@@ -1,7 +1,6 @@
 *,
 *::before,
 *::after{
-
     box-sizing: border-box;
 }
 
@@ -10,9 +9,7 @@
 }
 
 body{
-    padding: 0;
-    margin: 0;
-    background: #000;
+    background:black;
     color: white;
     font-family: "Oxygen", sans-serif;
 }
@@ -22,20 +19,21 @@ a{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 
 }
 
 .home img{
     width: 100%;
-    -webkit-filter: grayscale(100%)
-    conrast(100%);
-    filter: grayscale(100%) contrast(200%)
-    brightness(60%)
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    filter: grayscale(40%) contrast(200%)
+    brightness(60%);
 
 }
 
-.folio img{
+.projects img{
     filter: grayscale(100%); 
 }
 
@@ -89,7 +87,7 @@ aside nav a:nth-child(2):hover{
 }
 
 main{
-    max-width: 980px;
+    max-width: 1000px;
     background: #000;
     margin-left: 20%;
     padding: 12px 50px 12px 50px;
@@ -98,15 +96,17 @@ main{
 header{
     text-align: center;
     letter-spacing: 2px;
+    margin-top: -50px;
 }
 
 header h1{
     font-weight: bold;
-    font-size: 4em;
-    letter-spacing: 4px;
+    font-size: 3em;
+    letter-spacing: 6px;
 }
 
 header h5{
+    margin: -20px 0 50px 0;x
     font-weight: 300;
     font-size: 1em;
     letter-spacing: 4px;
@@ -114,19 +114,27 @@ header h5{
 }
 
 .about,
-.folio,
+.projects,
 .contact{
     line-height: 1.5em;
     letter-spacing: 1px;
     font-weight: 300;
-    margin-bottom: 300px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: 0px 200px 300px 200px;
+    padding-top: 100px;
     justify-content: space-around;
 }
 
+.projects{
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.contact{
+    margin-bottom: 100px;
+}
+
 .about h2,
-.folio h2,
+.projects h2,
 .contact h2{
     font-weight: 300;
     text-transform: uppercase;
@@ -176,13 +184,13 @@ header h5{
     width: 35%;
 }
 
-.folio h3{
+.projects h3{
     color: white;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
-.folio p{
+.projects p{
     font-size: 0.875em;
 }
 
@@ -204,6 +212,7 @@ header h5{
     background: #222;
     color: #b2b2b2;
     padding: 10px;
+    margin-left: 10px;
 }
 
 .label{
@@ -316,7 +325,7 @@ input[type="submit"]:hover{
     }
     
     header h1{
-        font-size: 3em;
+        font-size: 2em;
         line-height: 1.4em;
     }
 
