@@ -1,634 +1,611 @@
 *,
 *::before,
-*::after{
-    box-sizing: border-box;
+*::after {
+  box-sizing: border-box;
 }
 
-.mobile-nav{
-    display: none;
-
+.mobile-nav {
+  display: none;
 }
 
-*:focus{
-    outline: none;
+*:focus {
+  outline: none;
 }
 
-body{
-    background:black;
-    color: lightskyblue;
-    font-family: "Oxygen", sans-serif;
+body {
+  background: black;
+  color: lightskyblue;
+  font-family: "Oxygen", sans-serif;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-img{
-    max-width: 70%;
-    height: auto;
-
+img {
+  max-width: 70%;
+  height: auto;
 }
 
-.home img{
-    width: 65%;
-    filter: grayscale(40%) contrast(200%)
-    brightness(60%);
-
+.home img {
+  width: 65%;
+  filter: grayscale(40%) contrast(200%) brightness(60%);
 }
 
 /* .projects img{
     filter: grayscale(100%); 
 } */
 
-aside{
-    position: fixed;
-    background: #222;
-    top: 0px;
-    left: 0px;
-    width: 120px;
-    height: 100%;
-    overflow: none;
-    z-index: 1;
-    text-align: center;
-    padding: 0;
+aside {
+  position: fixed;
+  background: #222;
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 100%;
+  overflow: none;
+  z-index: 1;
+  text-align: center;
+  padding: 0;
 }
-aside img{
-    filter: grayscale(80%) contrast(100%)
-    brightness(100%);
-    margin-bottom: -3px;
-    max-width: 100%;
+aside img {
+  filter: grayscale(80%) contrast(100%) brightness(100%);
+  margin-bottom: -3px;
+  max-width: 100%;
 }
-.material-icons md-36{
-    font-size: 36px;
+.material-icons md-36 {
+  font-size: 36px;
 }
-aside nav ul{
-    padding-left: 0px;
-
+aside nav ul {
+  padding-left: 0px;
 }
 
-
-aside nav ul li{
-    list-style: none;
+aside nav ul li {
+  list-style: none;
 }
 
-aside ul li a{
-    display: block;
-    padding: 15px 0px;
-    color: lightseagreen;
-    text-transform: uppercase;
-    transition: all 0.35s;
-    font-size: 0.75em;
-    letter-spacing: 2px;
-    text-decoration: none;
+aside ul li a {
+  display: block;
+  padding: 15px 0px;
+  color: lightseagreen;
+  text-transform: uppercase;
+  transition: all 0.35s;
+  font-size: 0.75em;
+  letter-spacing: 2px;
+  text-decoration: none;
 }
 
-aside ul li.active a{
-        color: darkorange;
-        background: darkslategray;
+aside ul li.active a {
+  color: darkorange;
+  background: darkslategray;
 }
 
-aside a:hover{
-    background-color: #000;
+aside a:hover {
+  background-color: #000;
 }
 
-main{
-    max-width: 100%;
-    background: #000;
-    margin-left: 5%;
-    padding: 12px 50px 12px 50px;
+main {
+  max-width: 100%;
+  background: #000;
+  margin-left: 5%;
+  padding: 12px 50px 12px 50px;
 }
 
-header{
-    text-align: center;
-    letter-spacing: 2px;
-    margin-top: -50px;
+header {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: -50px;
 }
 
-header h1{
-    font-weight: bold;
-    font-size: 2.5em;
-    letter-spacing: 4px;
-    color: linen;
-
+header h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  color: linen;
 }
 
-header h5{
-    margin: -20px 0 50px 0;x
-    font-weight: 300;
-    font-size: 1em;
-    letter-spacing: 4px;
-    color: #b2b2b2;
+header h5 {
+  margin: -20px 0 50px 0;
+  xfont-weight: 300;
+  font-size: 1em;
+  letter-spacing: 4px;
+  color: #b2b2b2;
 }
 
 .about,
 .projects,
-.contact{
-    line-height: 1.5em;
-    letter-spacing: 1px;
-    font-weight: 300;
-    margin: 0px 200px 300px 200px;
-    padding-top: 10px;
-    justify-content: space-around;
+.contact {
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin: 0px 200px 300px 200px;
+  padding-top: 10px;
+  justify-content: space-around;
 }
 
-.projects{
-    margin-left: 150px;
-    margin-right: 50px;
+.projects {
+  margin-left: 150px;
+  margin-right: 50px;
 }
-.contact{
-    margin-bottom: 100px;
+.contact {
+  margin-bottom: 100px;
 }
 
 .about h2,
 .projects h2,
-.contact h2{
-    font-weight: 300;
-    text-transform: uppercase;
-    text-decoration: line-through;
-    padding-bottom: 10px;
-    margin: 100px 0 0 0;
-    letter-spacing: 4px;
+.contact h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin: 100px 0 0 0;
+  letter-spacing: 4px;
 }
 
-.about p{
-    color: #b2b2b2;
-
+.about p {
+  color: #b2b2b2;
 }
 
-.about span{
-    font-weight: 600;
-    color: white;
+.about span {
+  font-weight: 600;
+  color: white;
 }
 
-.about h3{
-    font-weight: 300;
-    margin: 50px 0;
+.about h3 {
+  font-weight: 300;
+  margin: 50px 0;
 }
 
-.container{
-    width: 100%;
-    background-color: #b2b2b2;
+.container {
+  width: 100%;
+  background-color: #b2b2b2;
 }
 
-.skills{
-    text-align: right;
-    padding-right: 20px;
-    line-height: 30px;
-    color: #b2b2b2;
-    background-color: #424242;
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 30px;
+  color: #b2b2b2;
+  background-color: #424242;
 }
 
-.html{
-    width: 60%;
+.html {
+  width: 60%;
 }
 
-.css{
-    width: 60%;
+.css {
+  width: 60%;
 }
 
-.js{
-    width: 35%;
+.js {
+  width: 35%;
 }
 
-.projects h3{
-    padding-top: 20px;
-    color: #b2b2b2;
-    font-weight: 300;
-    letter-spacing: 2px;
+.projects h3 {
+  padding-top: 20px;
+  color: #b2b2b2;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
-
-.projects p{
-    font-size: 0.875em;
+.projects p {
+  font-size: 0.875em;
 }
-  
-  /* Create four equal columns that floats next to eachother */
-  .column {
-    float: left;
-    width: 25%;
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  max-width: 30%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 9%;
+  right: 35%;
+  font-size: 25px;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.prev {
+  margin-left: -15%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  margin-left: 75%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: darkgray;
+  opacity: 50%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding-left: 80%;
+  padding-top: 99%;
+  position: absolute;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+/* .hover-shadow:hover {
+    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+/* 
+  } */
+
+.row-halves {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  -webkit-flex-pack: justify;
+  background: lightseagreen;
+}
+.row-halves .col {
+  width: 100%;
+}
+.row-halves .col a:hover {
+  background-color: lightseagreen;
+}
+.row-halves .col img:hover {
+  background-color: lightseagreen;
+}
+.projects .row h3 {
+  padding-left: 8%;
+  margin-top: -70px;
+}
+
+.col {
+  border: 1px solid #222;
+  background: #222;
+  color: #b2b2b2;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.label {
+  color: #b2b2b2;
+}
+
+.contact .container div {
+  margin-top: -10px;
+  margin-bottom: 5px;
+  color: #ff9494;
+  font-size: 12px;
+}
+form input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border: 1px solid #222;
+  background: transparent;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: #b2b2b2;
+}
+
+form input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #009688;
+}
+
+.container button {
+  background-color: transparent;
+  color: #b2b2b2;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid #222;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+.container button:hover {
+  background-color: #b2b2b2;
+  color: #222;
+}
+
+.contact .container {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background: transparent;
+  padding: 20px 0;
+}
+
+.footer {
+  border-top: 1px solid #222;
+}
+
+.top-bar {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.top-bar a {
+  margin: 5px;
+  font-size: 1em;
+  color: #b2b2b2;
+  transition: all 0.35s;
+  display: inlines;
+}
+
+.top-bar a:hover {
+  transform: scale(1.1);
+  color: #009688;
+}
+
+.bottom-bar {
+  background: #000;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .row-halves {
+    display: block;
   }
-  
-  /* The Modal (background) */
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
+  .row-halves .col {
     width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: black;
+    margin: 0 0 20px 0;
   }
-  
-  /* Modal Content */
+
   .modal-content {
-    position: relative;
-    margin: auto;
-    padding: 0;
-    max-width: 30%;
+    max-width: 40%;
+    padding-top: 0px;
   }
-  
-  /* The Close Button */
-  .close {
-    color: white;
-    position: absolute;
-    top: 9%;
-    right: 35%;
-    font-size: 25px;
+
+  .projects .row h3 {
+    padding-left: 15%;
+    margin-top: -70px;
   }
-  
-  .close:hover,
-  .close:focus {
-    color: #999;
-    text-decoration: none;
-    cursor: pointer;
+  .row-halves .row img {
+    width: 12%;
   }
-  
-  /* Hide the slides by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  .prev{
-      margin-left: -15%;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    margin-left: 75%;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
     background-color: darkgray;
     opacity: 50%;
   }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color:white;
-    font-size: 12px;
-    padding-left: 80%;
-    padding-top: 99%;
-    position: absolute;
+  aside a:hover {
+    background-color: #000;
   }
-  
-  /* Caption text */
-  .caption-container {
-    text-align: center;
-    background-color: black;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  img.demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-  
-  img.hover-shadow {
-    transition: 0.3s;
-  }
-  
-  /* .hover-shadow:hover {
-    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-/* 
-  } */
-
-
-.row-halves{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    -webkit-flex-pack:justify;
-    background: lightseagreen;
 }
-.row-halves .col{
+
+@media only screen and (max-width: 1000px) {
+  .about {
+    margin-right: 50px;
+  }
+  .row-halves {
+    display: block;
+  }
+  .row-halves .col {
     width: 100%;
-}
-.row-halves .col a:hover{
-    background-color: lightseagreen;
-}
-.row-halves .col img:hover{
-    background-color: lightseagreen;
-}
-.projects .row h3{
-    padding-left: 8%;
-    margin-top: -70px;
-} 
+    margin: 0 0 20px 0;
+  }
 
-.col{
-    border: 1px solid #222;
-    background: #222;
-    color: #b2b2b2;
-    padding: 10px;
-    margin-left: 10px;
-}
-
-.label{
-    color: #b2b2b2;
-}
-
-.contact .container div {
-    margin-top: -10px;
-    margin-bottom: 5px;
-    color: #FF9494;
-    font-size: 12px;
-}
-form input[type="text"],
-select,
-textarea{
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border: 1px solid #222;
-    background: transparent;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    color: #b2b2b2;
-}
-
-form input[type="text"]:focus,
-textarea:focus{
-    outline: none;
-    border: 1px solid #009688;
-}
-
-.container button{
-    background-color: transparent;
-    color: #b2b2b2;
-    text-transform: uppercase;
-    padding: 12px 20px;
-    border: 1px solid #222;
-    cursor: pointer;
-    transition: all 0.35s;
-}
-
-.container button:hover{
-    background-color: #b2b2b2;
-    color: #222;
-}
-
-.contact .container{
-    margin-top: 20px;
+  .about,
+  .projects,
+  .contact {
+    padding-top: 10px;
     margin-bottom: 100px;
-    background: transparent;
-    padding: 20px 0;
+  }
 }
+@media only screen and (max-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
 
-.footer{
-    border-top: 1px solid #222;
-}
+  main {
+    width: 90%;
+    padding: 12px 25px;
+    margin-left: 10%;
+  }
 
-.top-bar{
-    padding: 20px 0;
-    text-align: center;
-}
+  header h1 {
+    font-size: 2em;
+    line-height: 1.4em;
+  }
 
-.top-bar a{
-    margin: 5px;
+  header h5 {
     font-size: 1em;
-    color: #b2b2b2;
-    transition: all 0.35s;
-    display: inlines;
+    letter-spacing: 2px;
+  }
+
+  .home img {
+    width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .about,
+  .projects,
+  .contact {
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 50px 20px 20px 150px;
+    padding-top: -50px;
+  }
+  .contact {
+    margin-bottom: 250px;
+  }
+
+  aside {
+    position: fixed;
+  }
+
+  .row-halves {
+    display: block;
+  }
+  .row-halves .col {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .modal-content {
+    max-width: 40%;
+  }
 }
 
-.top-bar a:hover{
-    transform: scale(1.1);
-    color: #009688;
-}
+@media only screen and (max-width: 414px) {
+  aside {
+    display: none;
+  }
 
-.bottom-bar{
-    background: #000;
-    font-size: 0.75em;
+  .mobile-nav {
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background: black;
+    margin-top: -10px;
+    margin-left: -7%;
+    justify-content: space-around;
+  }
+
+  .mobile-nav ul {
+    list-style: none;
+    display: flex;
+  }
+  .mobile-nav ul li {
     text-align: center;
-}
+    text-transform: uppercase;
+    font-size: 0.875em;
+    letter-spacing: 2px;
+    padding-right: 5px;
+  }
 
-@media only screen and (max-width: 1300px){
+  .mobile-nav ul li a {
+    padding: 10px 8px;
+    color: black;
+    background: lightslategray;
+  }
 
-    .row-halves{
-        display: block;
-    }
-    .row-halves .col{
-        width: 100%;
-        margin: 0 0 20px 0;
-    }
-        
-    .modal-content {
-        max-width: 40%;
-        padding-top: 0px;
-      }
+  .mobile-nav ul li.active a {
+    font-size: 110%;
+    color: darkorange;
+    background: darkslategray;
+  }
 
-      .projects .row h3{
-        padding-left: 15%;
-        margin-top: -70px;
-    } 
-    .row-halves .row img{
-        width: 12%;
-    }
-    .prev:hover,
-    .next:hover {
-      background-color: darkgray;
-      opacity: 50%;
-    }
-    aside a:hover{
-        background-color: #000;
-    }
+  .mobile-nav a:hover {
+    background-color: darkorange;
+  }
 
-}
+  main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 25px;
+  }
 
-@media only screen and (max-width: 1000px){
-    .about{
-        margin-right: 50px;
-    }
-    .row-halves{
-        display: block;
-    }
-    .row-halves .col{
-        width: 100%;
-        margin: 0 0 20px 0;
-    }
+  header {
+    padding-top: 50px;
+  }
 
-    .about,
-    .projects,
-    .contact{
-        padding-top: 10px;
-        margin-bottom: 100px;
-    }
+  header h1 {
+    font-size: 1.5em;
+    line-height: 1.4em;
+  }
 
+  header h5 {
+    margin-top: 5px;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+  }
 
+  .home img {
+    max-width: 90%;
+  }
 
-}
-@media only screen and (max-width: 768px){
+  .about,
+  .projects,
+  .contact {
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 5%;
+    padding-top: 5px;
+  }
 
-
-    .mobile-nav{
-        display: none;
-    }
-
-    main{
-        width: 90%;
-        padding: 12px 25px;
-        margin-left: 10%;
-    }
-    
-    header h1{
-        font-size: 2em;
-        line-height: 1.4em;
-    }
-
-    header h5{
-        font-size: 1em;
-        letter-spacing: 2px;
-    }
-
-    .home img{
-        width: 90%;  
-        margin-bottom: 100px; 
-    }
-
-    .about,
-    .projects,
-    .contact{
-        line-height: 1.5em;
-        letter-spacing: 1px;
-        font-weight: 300;
-        margin: 50px 20px 20px 150px;
-        padding-top: -50px;
-    }
-    .contact{
-        margin-bottom: 250px;
-    }
-
-    aside{
-        position: fixed;
-    }
-
-    .row-halves{
-        display: block;
-    }
-    .row-halves .col{
-        width: 100%;
-        margin: 0 0 20px 0;
-    }
-    .modal-content {
-        max-width: 40%;
-      }
-}
-
-@media only screen and (max-width: 414px){
-
-    aside{
-        display: none;
-    }
-
-    .mobile-nav{
-        z-index: 1;
-        display: flex;
-        position: fixed;
-        width: 100%;
-        background: black;
-        margin-top: -10px;
-        margin-left: -7%;;
-        justify-content: space-around;
-        
-    }
-
-    .mobile-nav ul{
-        list-style: none;
-        display: flex;
-    }
-    .mobile-nav ul li{
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 0.875em;
-        letter-spacing: 2px;
-        padding-right: 5px;
-        
-    }
-
-    .mobile-nav ul li a{
-        padding: 10px 8px;
-        color: black;
-        background: lightslategray;
-    }
-
-    .mobile-nav ul li.active a{
-        font-size: 110%;
-        color: darkorange;
-        background: darkslategray;
-    }
-
-    .mobile-nav a:hover{
-        background-color:darkorange;
-    }
-
-    main{
-        width: 100%;
-        margin: 0 auto;
-        padding: 12px 25px;
-    }
-
-    header{
-        padding-top: 50px;
-    }
-    
-    header h1{
-        font-size: 1.5em;
-        line-height: 1.4em;
-    }
-
-    header h5{
-        margin-top: 5px;
-        font-size: 0.8em;
-        letter-spacing: 2px;
-    }
-
-    .home img{
-        max-width: 90%;
-    }
-
-    .about,
-    .projects,
-    .contact{
-        line-height: 1.5em;
-        letter-spacing: 1px;
-        font-weight: 300;
-        margin: 5%;
-        padding-top: 5px;
-    }
-
-      /* Modal Content */
+  /* Modal Content */
   .modal-content {
     max-width: 70%;
   }
-
 }
